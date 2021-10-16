@@ -1,0 +1,98 @@
+*
+{
+    box-sizing: border-box;
+}
+.section 
+{
+    height: 300px;
+
+}
+
+.subSection{
+    height: 300px;
+    width: 600px;
+}
+
+.background_img_props
+{
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+}
+
+.subsection_background_img_props
+{
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position-y: 30%;
+      transition: background-position-y 1s ;
+      
+}
+ .subsection_background_img_props:hover
+{
+
+    background-position-y: 50%;
+
+}  
+
+.background_img_1
+{
+    background-image: url('../images/portfolio-1.jpg');
+  
+}
+.background_img_2
+{
+    background-image: url('../images/portfolio-2.jpg');
+  
+}
+
+.background_img_3
+{
+    background-image: url('../images/portfolio-3.jpg');
+  
+}
+.background_img_4
+{
+    background-image: url('../images/portfolio-4.jpg');
+  
+}
+
+.background_img_5
+{
+    background-image: url('../images/portfolio-5.jpg');
+  
+}
+.background_img_6
+{
+    background-image: url('../images/portfolio-6.jpg');
+  
+}
+
+
+
+.innerDiv{
+    bottom:10px;
+}
+
+.semiTransparent 
+{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.fontAwesomeAnimation
+{
+    
+
+    transform: scale(1) !important;
+   
+    transition: transform 250ms ease-in-out, color 250ms ease-in-out !important;
+
+    color: white;
+}
+
+.fontAwesomeAnimation:hover{
+
+    transform: scale(1.3)!important;
+    color: rgb(230, 230, 230) !important;
+}
+
