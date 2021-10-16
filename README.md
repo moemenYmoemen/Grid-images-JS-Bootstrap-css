@@ -3,4 +3,4 @@
 Grid images selector 
 
 # Try it!
-https://bezel-test-site.netlify.app/
+https://grid-images-js.netlify.app/
